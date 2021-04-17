@@ -11,8 +11,8 @@ heloooo
 {% extends 'djangoProject3/base.html' %}
 {% block center %}
 {% load static %}
-<img src="{% static 'blog/aaf887e6_z.jpg'  %}" >
-<a href="{% static 'blog/.فاکتور خرما.pdf' %}">link</a>
+<img src="{% static 'djangoProject3/png-transparent-airplane-icon-a5-aircraft-computer-icons-airplane-angle-white-hand.png'  %}" >
+<!--<a href="{% static 'blog/.فاکتور خرما.pdf' %}">link</a>-->
 <h3>zia has written {{ blogs.count }} blog{{ blogs.count|pluralize }}</h3>
 
 {% for blog in blogs %}
